@@ -1,0 +1,21 @@
+ ALGORITHM sum
+ VAR
+     exist:=BOOLEAN ; sum := INTEGER; 
+     exist:= false  sum:=0 i:=INTEGER j:=INTEGER
+ BEGIN
+     FOR (i=0;i<tab1.len;i++)
+         while(exist:=false )
+         IF ( tab[i] == tb[j]) {
+
+         
+         exist:=true}
+         else{
+             j:=j+1
+         }
+            
+         END_IF
+IF (exist:=false) 
+    sum:=sum+tab1[i]
+END_IF
+     END_FOR
+ END
